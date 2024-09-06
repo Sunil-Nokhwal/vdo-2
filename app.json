@@ -1,1 +1,45 @@
 
+{
+    "name": "𝐓𝐞𝐱𝐭 to vdo",
+    "description": "𝑻𝒆𝒙𝒕 to vdo 𝑽𝒊𝒅𝒆𝒐 𝑬𝒙𝒕𝒓𝒂𝒄𝒕𝒐𝒓 𝑭𝒐𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎",
+    "logo": "https://graph.org/file/f12a07e9ed8dc349da2e7.jpg",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/AshutoshGoswami24/text-leech-bot",
+    "success_url": "https://t.me/AshutoshGoswami24",
+    "stack": "heroku-22",
+    "env": {
+        "API_ID": {
+            "description": "21827228",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "306c60a42c7b0d6b706c91beab097483",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "6991697056:AAGwBuc9l1hY4l_YFVHBLd60nMMca3kuBoA",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "@cncjugad07",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "𝑺𝒖𝒅𝒐 𝑰𝑫'𝒔 (𝒀𝒐𝒖 𝑪𝒂𝒏 𝑨𝒅𝒅 𝑴𝒖𝒍𝒕𝒊𝒑𝒍𝒆 𝑩𝒚 𝑮𝒊𝒗𝒊𝒏𝒈 𝑺𝒑𝒂𝒄𝒆)",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/AshutoshGoswami24/Ashutosh-Goswami-heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+    }
